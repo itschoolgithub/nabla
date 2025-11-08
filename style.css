@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    justify-content: space-between;
+    gap: 100px;
+    padding: 18px 0;
+    align-items: center;
+}
+
+.menu, .header, .left {
+    display: flex;
+}
+
+.menu {
+    list-style: none;
+    gap: 20px;
+}
+
+.left {
+    gap: 20px;
+}
+
+button {
+    padding: 4px 8px;
+}
